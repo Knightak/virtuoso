@@ -29,3 +29,6 @@ flutter:
     - family: Lora
       fonts:
         - asset: fonts/Lora-Regular.ttf
+
+  assets:
+    - img/
