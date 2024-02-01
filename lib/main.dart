@@ -1,3 +1,4 @@
+import 'dart:ui_web';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -11,7 +12,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'This is title',
+          'This is Title',
           style: TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.w900,
@@ -23,7 +24,10 @@ class Home extends StatelessWidget {
         backgroundColor: Color.fromARGB(255, 3, 1, 95),
       ),
       body: Center(
-        child: Text('This is the body'),
+        child: ElevatedButton(
+          onPressed: () {},
+          child: Text('Click'),
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Color.fromARGB(255, 151, 212, 37),

@@ -31,4 +31,4 @@ flutter:
         - asset: fonts/Lora-Regular.ttf
 
   assets:
-    - img/
+    - images/
