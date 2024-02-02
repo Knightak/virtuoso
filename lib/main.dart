@@ -1,6 +1,4 @@
-import 'dart:ui_web';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
 void main() => runApp(MaterialApp(
       home: Home(),
@@ -20,8 +18,6 @@ class Home extends StatelessWidget {
             fontFamily: 'Lora',
           ),
         ),
-        centerTitle: true,
-        backgroundColor: Color.fromARGB(255, 3, 1, 95),
       ),
       body: Center(
         child: ElevatedButton(
